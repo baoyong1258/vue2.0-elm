@@ -26,7 +26,7 @@
 	            				<img :src="imgBaseUrl + foodItem.image_url">
 	            				<figcaption>{{foodItem.title}}</figcaption>
 	            			</figure>
-	            		</a>	
+	            		</a>
 		            </div>
 		        </div>
 		        <div class="swiper-pagination"></div>
@@ -42,7 +42,7 @@
 	    	<shop-list v-if="hasGetData" :geohash="geohash"></shop-list>
     	</div>
     	<foot-guide></foot-guide>
-    </div>    
+    </div>
 </template>
 
 <script>
